@@ -1,0 +1,167 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #ff5e99; /* Raspberry headings */
+}
+
+h1 {
+    text-align: center; /* Center the h1 element */
+    font-size: 2em; /* Enlarge the font size */
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+h2 {
+    text-align: center; /* Center the h2 element */
+    font-size: 1.5em; /* Enlarge the font size for h2 */
+    margin-top: 15px; /* Add some top margin for spacing */
+}
+
+h3{
+    text-align: center;
+    font-size: 1.0em;
+    margin:10px;
+}
+
+.intro {
+    background-color: #fff7e1; /* Creamy background */
+    padding: 20px;
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.intro img {
+    width: 100%; /* Make the image span the whole width of the container */
+    height: auto;
+    border-radius: 10px;
+    border: 4px solid #ff5e99; /* Raspberry border */
+}
+
+.map-container {
+    margin-top: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+map {
+    display: block;
+}
+
+.map-containter iframe {
+    border: 3px solid #ff5e99; /* Raspberry border */
+    border-radius: 15px; /* Rounded corners */
+    margin-bottom: 15px; /* Adjust spacing as needed */
+}
+
+area {
+    outline: none;
+}
+
+area:hover {
+    opacity: 0.7;
+}
+
+#travels {
+    padding: 20px;
+}
+
+.begin {
+    display: flex;
+    justify-content: space-around; /* More space around items */
+    margin-top: 20px;
+}
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.thumbnail {
+    border: 3px solid #ff5e99; /* Raspberry border */
+    border-radius: 15px; /* Rounded corners */
+    margin-bottom: 15px; /* More space at the bottom */
+}
+
+a {
+    color: #ff5e99; /* Raspberry links */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #d63447; /* Darker Raspberry on hover */
+}
+
+/* Style for the figures using grid */
+/* Style for the grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns in the grid */
+    gap: 20px; /* Adjust spacing between items */
+    text-align: center;
+    margin: 20px 0;
+}
+
+.grid-item {
+    background-color: #fff7e1; /* Creamy background */
+    padding: 20px;
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Adjust thumbnail styling */
+.thumbnail {
+    border: 3px solid #ff5e99; /* Raspberry border */
+    border-radius: 15px; /* Rounded corners */
+    margin-bottom: 15px; /* Adjust spacing as needed */
+}
+
+/* Adjust figure caption styling */
+figcaption {
+    margin-top: 10px; /* Add space between image and caption */
+}
+
+/* Change nav styling */
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Fun button styling */
+button {
+    background-color: #ff5e99; /* Raspberry color */
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #d63447; /* Darker Raspberry on hover */
+    transform: scale(1.05); /* Increase size on hover for a fun effect */
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #ff5e99; /* Raspberry border at the top */
+}
+
+/* Centered text within the footer */
+footer p {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+/* Apply a lighter color for the date */
+footer .date {
+    color: #bbb;
+}
